@@ -65,7 +65,7 @@ var a: Bool = true
 // Explicitly declaring a variable called 'a' of type Bool to equal true
 
 var b = false
-// Implicitily delaring a variable called 'b' to equal false where 'b' is a variable
+// Implicitily declaring a variable called 'b' to equal false where 'b' is a variable
 ````
 
 ##Comparison
