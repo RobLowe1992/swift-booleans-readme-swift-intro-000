@@ -4,25 +4,20 @@
 
 > Already know you that which you need. -[Yoda](https://en.wikipedia.org/wiki/Yoda)
 
+## Overview 
+
+In this lesson, we'll look at the `Bool` data type and work with various comparison and logical operators. 
+
 ## Learning Objectives
 
-* Explain that the `Bool` is a data type where the value can only be **true** or **false**.
+* Explain that the `Bool` is a data type where the value can only be **true** or **false**
 * Create variables using the Boolean literal values, `true` or `false`
-* Explain and use all the various comparison operators:
-	* Equal to (a == b)
-	* Not equal to (a != b)
-	* Greater than (a > b)
-	* Less than (a < b)
-	* Greater than or equal to (a >= b)
-	* Less than or equal to (a <= b)
-* Explain and use all of the various logical operators:
-	* Logical NOT (!a)
-	* Logical AND (a && b)
-	* Logical OR (a || b)
+* Explain and use various comparison operators including "equal to," "greater than," and "less than" 
+* Explain and use various logical operators, including NOT, AND, and OR
 
 
 ## Boolean Type
-Boolean is a fancy term meaning something that is either true or false.  While numbers and math form the backbone of any piece of software, everything (and I do mean everything) in computers, software and microchips, breaks down to ones and zeros, true and false.  While it isn't important to understand why that is and how exactly it works, it is important to understand how boolean expressions work so that your code will be able to do something interesting like this:
+Boolean is a fancy term meaning something that is either true or false.  While numbers and math form the backbone of any piece of software, everything (and we do mean everything) in computers, software and microchips, breaks down to ones and zeros, true and false.  While it isn't important to understand why that is and how exactly it works, it is important to understand how boolean expressions work so that your code will be able to do something interesting like this:
 
 ````Swift
 let name = "Luke"
@@ -54,7 +49,7 @@ isHungry = true
 // isHungry now has a value of true
 ````
 
-Going with the example above, our program would like to know if isHungry is true or false and based upon that value, it will do something. If the person is hungry, it will feed them.. if not, it will do nothing.
+Going with the example above, our program would like to know if isHungry is true or false and based upon that value, it will do something. If the person is hungry, it will feed them. If not, it will do nothing.
 
 Almost every program you write will need to take different courses of action based on boolean values, so it's important to have a really good grasp of what booleans and boolean expressions are as well as how to use them.
 
@@ -138,7 +133,5 @@ var fileExists = false
 ````
 In our program, if ````fileExists```` is ````false````, we can show an alert to the user letting them know that there isn't a file and prompt them to look for another file.  If ````fileExists```` is ````true```` then we can continue on with our program and show the contents of the file to the user.
  
-
-<a href='https://learn.co/lessons/Booleans' data-visibility='hidden'>View this lesson on Learn.co</a>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-booleans-readme'>Booleans and Operators</a> on Learn.co and start learning to code for free.</p>
